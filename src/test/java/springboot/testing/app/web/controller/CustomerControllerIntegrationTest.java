@@ -1,7 +1,7 @@
-package com.testing.system.web.controller;
+package springboot.testing.app.web.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.testing.system.web.model.Customer;
+import springboot.testing.app.web.model.Customer;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;

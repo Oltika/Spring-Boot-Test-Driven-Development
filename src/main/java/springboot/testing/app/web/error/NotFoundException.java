@@ -1,4 +1,4 @@
-package com.testing.system.web.error;
+package springboot.testing.app.web.error;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

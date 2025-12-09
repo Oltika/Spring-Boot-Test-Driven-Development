@@ -1,6 +1,6 @@
-package com.testing.system.data.repository;
+package springboot.testing.app.data.repository;
 
-import com.testing.system.data.entity.CustomerEntity;
+import springboot.testing.app.data.entity.CustomerEntity;
 import org.springframework.data.repository.CrudRepository;
 
 import java.util.UUID;

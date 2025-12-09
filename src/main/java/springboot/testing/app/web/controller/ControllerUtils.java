@@ -1,6 +1,6 @@
-package com.testing.system.web.controller;
+package springboot.testing.app.web.controller;
 
-import com.testing.system.web.error.BadRequestException;
+import springboot.testing.app.web.error.BadRequestException;
 import io.micrometer.common.util.StringUtils;
 
 import java.util.UUID;

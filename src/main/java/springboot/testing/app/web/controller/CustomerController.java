@@ -1,8 +1,8 @@
-package com.testing.system.web.controller;
+package springboot.testing.app.web.controller;
 
-import com.testing.system.service.CustomerService;
-import com.testing.system.web.error.BadRequestException;
-import com.testing.system.web.model.Customer;
+import springboot.testing.app.service.CustomerService;
+import springboot.testing.app.web.error.BadRequestException;
+import springboot.testing.app.web.model.Customer;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 

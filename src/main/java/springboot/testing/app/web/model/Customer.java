@@ -1,4 +1,4 @@
-package com.testing.system.web.model;
+package springboot.testing.app.web.model;
 
 public class Customer {
   private String customerId;

@@ -1,4 +1,4 @@
-package com.testing.system.data.entity;
+package springboot.testing.app.data.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

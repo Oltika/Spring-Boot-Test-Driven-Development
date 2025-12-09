@@ -1,9 +1,9 @@
-package com.testing.system.service;
+package springboot.testing.app.service;
 
 
-import com.testing.system.web.error.ConflictException;
-import com.testing.system.web.error.NotFoundException;
-import com.testing.system.web.model.Customer;
+import springboot.testing.app.web.error.ConflictException;
+import springboot.testing.app.web.error.NotFoundException;
+import springboot.testing.app.web.model.Customer;
 import org.junit.jupiter.api.Test;
 import org.junit.platform.commons.util.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
