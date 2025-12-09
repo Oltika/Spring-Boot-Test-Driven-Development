@@ -105,6 +105,18 @@ docker-compose logs -f app
 
 The application will be available at `http://localhost:8080` and PostgreSQL at `localhost:5432` once the containers start.
 
+### Environment Variables (.env)
+
+The `docker-compose.yaml` file uses environment variables from a `.env` file for database configuration. Create a `.env` file in the project root with the following variables:
+
+```bash
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=postgres
+POSTGRES_DB=postgres
+```
+
+Docker Compose automatically loads these variables from the `.env` file. You can customize these values according to your needs without modifying the `docker-compose.yaml` file.
+
 
 ## Tests
 
