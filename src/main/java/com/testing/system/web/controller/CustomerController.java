@@ -8,6 +8,11 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+/*
+This class is the controller for the customer service.
+It is used to handle the HTTP requests for the customer service.
+It is also used to handle the HTTP responses for the customer service.
+*/
 @RestController
 @RequestMapping("/customers")
 public class CustomerController {

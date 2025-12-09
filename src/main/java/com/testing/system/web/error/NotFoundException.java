@@ -10,7 +10,6 @@ public class NotFoundException extends RuntimeException{
     super();
   }
 
-  // Constructor with message parameter
   public NotFoundException(String message) {
     super(message);
   }

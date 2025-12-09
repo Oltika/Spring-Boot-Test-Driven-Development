@@ -10,7 +10,6 @@ public class BadRequestException extends RuntimeException{
     super();
   }
 
-  // Constructor with message parameter
   public BadRequestException(String message) {
     super(message);
   }

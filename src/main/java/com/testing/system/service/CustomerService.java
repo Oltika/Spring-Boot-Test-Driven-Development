@@ -13,6 +13,11 @@ import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
 
+/*
+This class is the service for the customer service.
+It is used to handle the business logic for the customer service.
+It is also used to handle the data access for the customer service.
+*/
 @Service
 public class CustomerService {
 

@@ -10,7 +10,6 @@ public class ConflictException extends RuntimeException{
     super();
   }
 
-  // Constructor with message parameter
   public ConflictException(String message) {
     super(message);
   }

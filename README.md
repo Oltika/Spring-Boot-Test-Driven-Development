@@ -1,6 +1,6 @@
-# testing-system
+# Spring Boot Test Driven Development
 
-A small Spring Boot demo application (testing-system) demonstrating a simple customer data service using Spring Data JPA and PostgreSQL.
+A small Spring Boot demo application (Spring Boot TDD) demonstrating a simple customer data service using Spring Data JPA and PostgreSQL.
 
 ## Project overview
 
@@ -12,6 +12,8 @@ A small Spring Boot demo application (testing-system) demonstrating a simple cus
 - Mocking framework: Mockito
 - Testing framework: JUnit 5
 - REST API: Spring Web MVC
+
+Note: Spring Boot 3.0.x targets Java 17 as its baseline. This project is configured for Java 21 and has been verified with that runtime; keep the Java version aligned across your local JDK, Maven toolchain, and deployment environment.
 
 This project provides a minimal REST/backend service around a Customer entity and includes unit and integration tests.
 
